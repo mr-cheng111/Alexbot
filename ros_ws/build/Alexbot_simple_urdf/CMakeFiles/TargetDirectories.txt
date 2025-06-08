@@ -1,0 +1,9 @@
+/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf/CMakeFiles/uninstall.dir
+/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf/CMakeFiles/Alexbot_simple_urdf_uninstall.dir
+/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf/CMakeFiles/test.dir
+/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf/CMakeFiles/edit_cache.dir
+/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf/CMakeFiles/rebuild_cache.dir
+/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf/CMakeFiles/list_install_components.dir
+/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf/CMakeFiles/install.dir
+/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf/CMakeFiles/install/local.dir
+/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf/CMakeFiles/install/strip.dir

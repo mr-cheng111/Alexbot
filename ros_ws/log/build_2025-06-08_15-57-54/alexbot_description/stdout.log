@@ -1,0 +1,80 @@
+-- The C compiler identification is GNU 9.5.0
+-- The CXX compiler identification is GNU 9.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/mr-cheng/Bags/anaconda3/bin/python3 (found version "3.10.16") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mr-cheng/Documents/Alexbot/ros_ws/build/alexbot_description
+-- Install configuration: ""
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/launch
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/launch/display.launch.py
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/leftlink2.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/base_link.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/leftlink5.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/rightlink4.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/rightlink2.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/leftlink4.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/rightlink1.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/leftlink1.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/leftlink3.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/rightlink3.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/meshes/rightlink5.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/leftlink2.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/base_link.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/leftlink5.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/Alexbot.csv
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/Alexbot.urdf
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/rightlink4.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/rightlink2.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/leftlink4.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/rightlink1.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/leftlink1.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/leftlink3.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/rightlink3.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/urdf/rightlink5.STL
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/rviz
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/ament_index/resource_index/package_run_dependencies/alexbot_description
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/ament_index/resource_index/parent_prefix_path/alexbot_description
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/environment/ament_prefix_path.sh
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/environment/path.sh
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/environment/path.dsv
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/local_setup.bash
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/local_setup.sh
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/local_setup.zsh
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/local_setup.dsv
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/package.dsv
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/ament_index/resource_index/packages/alexbot_description
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/cmake/alexbot_descriptionConfig.cmake
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/cmake/alexbot_descriptionConfig-version.cmake
+-- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/alexbot_description/share/alexbot_description/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf -- -j16 -l16
+Invoked command in '/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf -- -j16 -l16
+Invoking command in '/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf
+Invoked command in '/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf

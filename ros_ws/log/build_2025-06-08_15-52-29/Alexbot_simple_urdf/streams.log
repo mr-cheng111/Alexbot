@@ -1,0 +1,64 @@
+[0.006s] Invoking command in '/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf -- -j16 -l16
+[0.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.099s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.116s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.117s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.121s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.150s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.151s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.196s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.223s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.228s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.267s] WARNING: Package name "Alexbot_simple_urdf" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.274s] -- Configuring done
+[0.276s] -- Generating done
+[0.277s] -- Build files have been written to: /home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf
+[0.300s] Invoked command in '/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf -- -j16 -l16
+[0.313s] Invoking command in '/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf
+[0.322s] -- Install configuration: ""
+[0.322s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/launch
+[0.322s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/launch/display.launch.py
+[0.322s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes
+[0.322s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/leftlink2.STL
+[0.323s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/base_link.STL
+[0.324s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/leftlink5.STL
+[0.324s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/rightlink4.STL
+[0.325s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/rightlink2.STL
+[0.326s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/leftlink4.STL
+[0.327s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/rightlink1.STL
+[0.328s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/leftlink1.STL
+[0.328s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/leftlink3.STL
+[0.329s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/rightlink3.STL
+[0.330s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/meshes/rightlink5.STL
+[0.330s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf
+[0.330s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/Alexbot_simple_urdf.csv
+[0.330s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/leftlink2.STL
+[0.331s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/Alexbot_simple_urdf.urdf
+[0.331s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/base_link.STL
+[0.332s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/leftlink5.STL
+[0.332s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/rightlink4.STL
+[0.332s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/rightlink2.STL
+[0.333s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/leftlink4.STL
+[0.334s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/rightlink1.STL
+[0.334s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/leftlink1.STL
+[0.334s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/leftlink3.STL
+[0.335s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/rightlink3.STL
+[0.335s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/urdf/rightlink5.STL
+[0.335s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/ament_index/resource_index/package_run_dependencies/Alexbot_simple_urdf
+[0.335s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/ament_index/resource_index/parent_prefix_path/Alexbot_simple_urdf
+[0.335s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/environment/ament_prefix_path.sh
+[0.335s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/environment/ament_prefix_path.dsv
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/environment/path.sh
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/environment/path.dsv
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/local_setup.bash
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/local_setup.sh
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/local_setup.zsh
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/local_setup.dsv
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/package.dsv
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/ament_index/resource_index/packages/Alexbot_simple_urdf
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/cmake/Alexbot_simple_urdfConfig.cmake
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/cmake/Alexbot_simple_urdfConfig-version.cmake
+[0.336s] -- Installing: /home/mr-cheng/Documents/Alexbot/ros_ws/install/Alexbot_simple_urdf/share/Alexbot_simple_urdf/package.xml
+[0.337s] Invoked command in '/home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/mr-cheng/Documents/Alexbot/ros_ws/build/Alexbot_simple_urdf

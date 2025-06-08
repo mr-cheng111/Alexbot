@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="alexbot">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.00012551 -0.040688 -0.16661"
+        rpy="0 0 0" />
+      <mass
+        value="2.3881" />
+      <inertia
+        ixx="0.0071493"
+        ixy="3.269E-08"
+        ixz="1.6205E-05"
+        iyy="0.026658"
+        iyz="-1.3812E-08"
+        izz="0.019906" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="leftlink1">
+    <inertial>
+      <origin
+        xyz="-2.2786E-05 0.088743 -0.032041"
+        rpy="0 0 0" />
+      <mass
+        value="1.234" />
+      <inertia
+        ixx="0.0028154"
+        ixy="-9.7791E-08"
+        ixz="-3.6989E-08"
+        iyy="0.0012563"
+        iyz="5.5756E-05"
+        izz="0.0036227" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/leftlink1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/leftlink1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leftjoint1"
+    type="revolute">
+    <origin
+      xyz="-0.15 -0.08575 -0.2"
+      rpy="0 -0.011036 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="leftlink1" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-1"
+      upper="0.3"
+      effort="6"
+      velocity="20" />
+  </joint>
+  <link
+    name="leftlink2">
+    <inertial>
+      <origin
+        xyz="-0.059836 1.9596E-05 -0.078557"
+        rpy="0 0 0" />
+      <mass
+        value="1.3634" />
+      <inertia
+        ixx="0.0021769"
+        ixy="-2.9637E-08"
+        ixz="-0.00015"
+        iyy="0.0014724"
+        iyz="-8.5827E-08"
+        izz="0.0012504" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/leftlink2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/leftlink2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leftjoint2"
+    type="revolute">
+    <origin
+      xyz="0 0.09 -0.041133"
+      rpy="0 0 -0.0099441" />
+    <parent
+      link="leftlink1" />
+    <child
+      link="leftlink2" />
+    <axis
+      xyz="-7.9882E-05 0 1" />
+    <limit
+      lower="-1"
+      upper="1"
+      effort="6"
+      velocity="20" />
+  </joint>
+  <link
+    name="leftlink3">
+    <inertial>
+      <origin
+        xyz="0.0081106 -0.013153 -0.076445"
+        rpy="0 0 0" />
+      <mass
+        value="1.7019" />
+      <inertia
+        ixx="0.010704"
+        ixy="4.3293E-05"
+        ixz="0.00025007"
+        iyy="0.0099712"
+        iyz="-0.0012165"
+        izz="0.001864" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/leftlink3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/leftlink3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leftjoint3"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.091367"
+      rpy="0.12662 0 0" />
+    <parent
+      link="leftlink2" />
+    <child
+      link="leftlink3" />
+    <axis
+      xyz="-1 -1.0088E-05 -7.9243E-05" />
+    <limit
+      lower="-1.5"
+      upper="1.5"
+      effort="12"
+      velocity="20" />
+  </joint>
+  <link
+    name="leftlink4">
+    <inertial>
+      <origin
+        xyz="0.00031653 -0.013101 -0.098533"
+        rpy="0 0 0" />
+      <mass
+        value="0.64823" />
+      <inertia
+        ixx="0.0027573"
+        ixy="2.743E-06"
+        ixz="3.8619E-06"
+        iyy="0.0025871"
+        iyz="-0.00010212"
+        izz="0.00024153" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/leftlink4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/leftlink4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leftjoint4"
+    type="revolute">
+    <origin
+      xyz="-0.0012668 -0.042947 -0.27956"
+      rpy="-0.12662 -7.9243E-05 1.0088E-05" />
+    <parent
+      link="leftlink3" />
+    <child
+      link="leftlink4" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="0.4"
+      upper="1.2"
+      effort="6"
+      velocity="20" />
+  </joint>
+  <link
+    name="leftlink5">
+    <inertial>
+      <origin
+        xyz="0.00098964 -0.0027958 -0.013061"
+        rpy="0 0 0" />
+      <mass
+        value="0.13731" />
+      <inertia
+        ixx="0.00015831"
+        ixy="4.2543E-08"
+        ixz="2.987E-08"
+        iyy="1.34E-05"
+        iyz="7.2649E-06"
+        izz="0.00015754" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/leftlink5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/leftlink5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leftjoint5"
+    type="revolute">
+    <origin
+      xyz="0 -0.012922 -0.28268"
+      rpy="0 0 0" />
+    <parent
+      link="leftlink4" />
+    <child
+      link="leftlink5" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-1"
+      upper="1"
+      effort="6"
+      velocity="20" />
+  </joint>
+  <link
+    name="rightlink1">
+    <inertial>
+      <origin
+        xyz="-3.6059E-05 0.088751 -0.032041"
+        rpy="0 0 0" />
+      <mass
+        value="1.234" />
+      <inertia
+        ixx="0.0028155"
+        ixy="2.331E-07"
+        ixz="3.4726E-08"
+        iyy="0.0012563"
+        iyz="5.5748E-05"
+        izz="0.0036227" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/rightlink1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/rightlink1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rightjoint1"
+    type="revolute">
+    <origin
+      xyz="0.15 -0.08575 -0.2"
+      rpy="0 -0.0027293 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rightlink1" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-0.3"
+      upper="1"
+      effort="6"
+      velocity="20" />
+  </joint>
+  <link
+    name="rightlink2">
+    <inertial>
+      <origin
+        xyz="0.059846 -2.9857E-05 -0.077374"
+        rpy="0 0 0" />
+      <mass
+        value="1.3634" />
+      <inertia
+        ixx="0.0021769"
+        ixy="-8.6102E-08"
+        ixz="0.0001501"
+        iyy="0.001472"
+        iyz="4.7304E-07"
+        izz="0.0012508" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/rightlink2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/rightlink2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rightjoint2"
+    type="revolute">
+    <origin
+      xyz="0 0.09 -0.042283"
+      rpy="0 0 -0.065122" />
+    <parent
+      link="rightlink1" />
+    <child
+      link="rightlink2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1"
+      upper="1"
+      effort="6"
+      velocity="20" />
+  </joint>
+  <link
+    name="rightlink3">
+    <inertial>
+      <origin
+        xyz="0.0035443 -0.0096432 -0.077469"
+        rpy="0 0 0" />
+      <mass
+        value="1.7019" />
+      <inertia
+        ixx="0.010145"
+        ixy="1.1642E-05"
+        ixz="0.0001789"
+        iyy="0.010704"
+        iyz="-0.00025272"
+        izz="0.0016905" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/rightlink3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/rightlink3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rightjoint3"
+    type="revolute">
+    <origin
+      xyz="0.00155 0 -0.090217"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="rightlink2" />
+    <child
+      link="rightlink3" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.5"
+      upper="1.5"
+      effort="12"
+      velocity="20" />
+  </joint>
+  <link
+    name="rightlink4">
+    <inertial>
+      <origin
+        xyz="-0.00041652 -0.013029 -0.098599"
+        rpy="0 0 0" />
+      <mass
+        value="0.64823" />
+      <inertia
+        ixx="0.0027573"
+        ixy="-2.5723E-06"
+        ixz="-3.914E-06"
+        iyy="0.0025879"
+        iyz="-9.6186E-05"
+        izz="0.00024071" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/rightlink4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/rightlink4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rightjoint4"
+    type="revolute">
+    <origin
+      xyz="0.0078801 0 -0.28273"
+      rpy="0 0 1.5708" />
+    <parent
+      link="rightlink3" />
+    <child
+      link="rightlink4" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-1.2"
+      upper="-0.4"
+      effort="6"
+      velocity="20" />
+  </joint>
+  <link
+    name="rightlink5">
+    <inertial>
+      <origin
+        xyz="0.0027794 0.00055995 -0.013073"
+        rpy="0 0 0" />
+      <mass
+        value="0.13731" />
+      <inertia
+        ixx="1.3946E-05"
+        ixy="9.3721E-06"
+        ixz="-6.6014E-06"
+        iyy="0.0001577"
+        iyz="4.6064E-07"
+        izz="0.0001576" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/rightlink5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://alexbot_description/meshes/rightlink5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rightjoint5"
+    type="revolute">
+    <origin
+      xyz="0 -0.0121 -0.28272"
+      rpy="0 0 -1.5057" />
+    <parent
+      link="rightlink4" />
+    <child
+      link="rightlink5" />
+    <axis
+      xyz="-0.065076 -0.99788 0" />
+    <limit
+      lower="-1"
+      upper="1"
+      effort="6"
+      velocity="20" />
+  </joint>
+</robot>
