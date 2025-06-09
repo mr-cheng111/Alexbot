@@ -1,5 +1,5 @@
 <mujoco model="alexbot scene">
-  <include file="alexbot.xml"/>
+  <include file="../robot_model/alexbot.xml"/>
 
   <statistic center="0 0 1" extent="1.8"/>
 
@@ -21,13 +21,13 @@
     <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"/>
   </worldbody>
 
-  <keyframe>
+  <!-- <keyframe>
     <key name="home"
       qpos="
     0 0 -10
     1 0 0 0
     0 0 0 0 0
     0 0 0 0 0 "/>
-  </keyframe>
+  </keyframe> -->
 
 </mujoco>

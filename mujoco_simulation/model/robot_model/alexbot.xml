@@ -1,5 +1,5 @@
 <mujoco model="alexbot">
-  <compiler angle="radian"/>
+  <compiler angle="radian" meshdir="../meshes"/>
 
   <default>
     <default class="alexbot">
@@ -27,9 +27,7 @@
 
   </default>
 
-  <include file="./base_link_parts/assets.xml"/>
-  <include file="./leftlink1_parts/assets.xml"/>
-  <include file="./rightlink1_parts/assets.xml"/>
+  <include file="../meshes/base_link_parts/assets.xml"/>
   <asset>
     <mesh name="base_link" file="base_link.STL"/>
     <mesh name="leftlink1" file="leftlink1.STL"/>
@@ -46,9 +44,9 @@
 
   <worldbody>
     <light mode="targetbodycom" target="base_link" pos="2 0 2.5"/>
-    <body name="base_link" pos="0 0 0.935" quat="1 0 0 0">
+    <body name="base_link" pos="0 0 1" quat="1 0 0 0">
       <inertial pos="-0.010856 -6.8e-05 -0.007128" quat="0.979606 0.00882716 0.200723 -0.00231074" mass="5.67363" diaginertia="0.0355096 0.0296524 0.0283549"/>
-      <freejoint/>
+      <!-- <freejoint/> --> <!-- 是否将机器人放到地上 -->
       <geom class="visual" mesh="base_link" rgba="1 1 1 1" />
       <geom type="mesh" mesh="base_link_0" rgba="1 1 1 0"/>
       <geom type="mesh" mesh="base_link_1" rgba="1 1 1 0"/>
