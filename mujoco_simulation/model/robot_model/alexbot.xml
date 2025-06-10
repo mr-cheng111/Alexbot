@@ -46,7 +46,7 @@
     <light mode="targetbodycom" target="base_link" pos="2 0 2.5"/>
     <body name="base_link" pos="0 0 1" quat="1 0 0 0">
       <inertial pos="-0.010856 -6.8e-05 -0.007128" quat="0.979606 0.00882716 0.200723 -0.00231074" mass="5.67363" diaginertia="0.0355096 0.0296524 0.0283549"/>
-      <!-- <freejoint/> --> <!-- 是否将机器人放到地上 -->
+      <freejoint/> <!-- 是否将机器人放到地上 -->
       <geom class="visual" mesh="base_link" rgba="1 1 1 1" />
       <geom type="mesh" mesh="base_link_0" rgba="1 1 1 0"/>
       <geom type="mesh" mesh="base_link_1" rgba="1 1 1 0"/>
@@ -198,18 +198,18 @@
   </worldbody>
   <actuator>
     <!-- Left Leg motors -->
-    <general name="motor_left_1" joint="leftjoint1" ctrlrange="-6 6" gear="1"/>
-    <general name="motor_left_2" joint="leftjoint2" ctrlrange="-6 6" gear="1"/>
+    <general name="motor_left_1" joint="leftjoint1" ctrlrange="-20 20" gear="1"/>
+    <general name="motor_left_2" joint="leftjoint2" ctrlrange="-20 20" gear="1"/>
     <general name="motor_left_3" joint="leftjoint3" ctrlrange="-12 12" gear="1"/>
-    <general name="motor_left_4" joint="leftjoint4" ctrlrange="-6 6" gear="1"/>
-    <general name="motor_left_5" joint="leftjoint5" ctrlrange="-6 6" gear="1"/>
+    <general name="motor_left_4" joint="leftjoint4" ctrlrange="-8 8" gear="1"/>
+    <general name="motor_left_5" joint="leftjoint5" ctrlrange="-8 8" gear="1"/>
 
     <!-- Right Leg motors -->
-    <general name="motor_right_1" joint="rightjoint1" ctrlrange="-6 6" gear="1"/>
-    <general name="motor_right_2" joint="rightjoint2" ctrlrange="-6 6" gear="1"/>
+    <general name="motor_right_1" joint="rightjoint1" ctrlrange="-20 20" gear="1"/>
+    <general name="motor_right_2" joint="rightjoint2" ctrlrange="-20 20" gear="1"/>
     <general name="motor_right_3" joint="rightjoint3" ctrlrange="-12 12" gear="1"/>
-    <general name="motor_right_4" joint="rightjoint4" ctrlrange="-6 6" gear="1"/>
-    <general name="motor_right_5" joint="rightjoint5" ctrlrange="-6 6" gear="1"/>
+    <general name="motor_right_4" joint="rightjoint4" ctrlrange="-8 8" gear="1"/>
+    <general name="motor_right_5" joint="rightjoint5" ctrlrange="-8 8" gear="1"/>
   </actuator>
    <sensor>
     <!-- 加速度 -->

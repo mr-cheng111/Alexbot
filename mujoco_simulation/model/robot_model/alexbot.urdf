@@ -26,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/base_link.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/base_link.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -66,7 +66,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/leftlink1.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/leftlink1.STL" />
       </geometry>
       <material
         name="">
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/leftlink1.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/leftlink1.STL" />
       </geometry>
     </collision>
   </link>
@@ -124,7 +124,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/leftlink2.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/leftlink2.STL" />
       </geometry>
       <material
         name="">
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/leftlink2.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/leftlink2.STL" />
       </geometry>
     </collision>
   </link>
@@ -182,7 +182,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/leftlink3.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/leftlink3.STL" />
       </geometry>
       <material
         name="">
@@ -196,7 +196,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/leftlink3.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/leftlink3.STL" />
       </geometry>
     </collision>
   </link>
@@ -240,7 +240,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/leftlink4.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/leftlink4.STL" />
       </geometry>
       <material
         name="">
@@ -254,7 +254,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/leftlink4.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/leftlink4.STL" />
       </geometry>
     </collision>
   </link>
@@ -298,7 +298,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/leftlink5.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/leftlink5.STL" />
       </geometry>
       <material
         name="">
@@ -312,7 +312,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/leftlink5.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/leftlink5.STL" />
       </geometry>
     </collision>
   </link>
@@ -356,7 +356,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/rightlink1.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/rightlink1.STL" />
       </geometry>
       <material
         name="">
@@ -370,7 +370,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/rightlink1.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/rightlink1.STL" />
       </geometry>
     </collision>
   </link>
@@ -414,7 +414,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/rightlink2.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/rightlink2.STL" />
       </geometry>
       <material
         name="">
@@ -428,7 +428,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/rightlink2.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/rightlink2.STL" />
       </geometry>
     </collision>
   </link>
@@ -472,7 +472,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/rightlink3.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/rightlink3.STL" />
       </geometry>
       <material
         name="">
@@ -486,7 +486,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/rightlink3.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/rightlink3.STL" />
       </geometry>
     </collision>
   </link>
@@ -530,7 +530,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/rightlink4.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/rightlink4.STL" />
       </geometry>
       <material
         name="">
@@ -544,7 +544,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/rightlink4.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/rightlink4.STL" />
       </geometry>
     </collision>
   </link>
@@ -588,7 +588,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/rightlink5.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/rightlink5.STL" />
       </geometry>
       <material
         name="">
@@ -602,7 +602,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://alexbot_description/meshes/rightlink5.STL" />
+          filename="/home/mr-cheng/Documents/Alexbot/mujoco_simulation/model/meshes/rightlink5.STL" />
       </geometry>
     </collision>
   </link>
